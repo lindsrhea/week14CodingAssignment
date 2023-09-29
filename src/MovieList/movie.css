@@ -1,0 +1,124 @@
+li {
+    list-style: none;
+}
+
+.movie-repository {
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    color: white;
+    background-color: black;
+}
+
+.movie {
+    flex: 1;
+    position: relative;
+    margin: 10px;
+    padding: 1px;
+    border: 10px solid goldenrod;
+    border-radius: 5px;
+    background: url(https://static.vecteezy.com/system/resources/previews/000/106/870/original/free-strass-vector-gold-glitter-texture-on-black-background.jpg);
+}
+
+.movie-shelf img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.text-container {
+    text-align: center;
+    font-size: 65px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 41, 41, 0.8);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+}
+
+input[type=radio]{
+    display: none;
+}
+
+.star{
+    cursor: pointer
+}
+
+/* Reviews: */
+
+.card {
+    width: 50vw;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+
+  .card-title {
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .reviews-top {
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+  }
+
+  .user-details {
+    align-items: center;
+    display: flex;
+  }
+
+  h6 {
+    font-size: larger;
+    font-weight: 700;
+    margin-right: 10px;
+  }
+
+  .reviews-form {
+    padding: 5px;
+    width: 50vw;
+    border-radius: 20px;
+  }
+
+  .form-container {
+    padding: 20px;
+    background: #eedfdf;
+    width: 60%;
+    border-radius: 20px;
+    margin: auto;
+  }
+
+.input [type='radio'] {
+  display: none;
+}
+
+#rating {
+  color: rgb(255, 238, 0);
+  font-weight: bold;
+}
+
+textarea {
+  font-size: 50px;
+  height: 250px;
+  width: 750px;
+}
+
+button {
+  height: 75px;
+  width: 200px;
+  font-size: 45px;
+}
+
+input {
+height: 75px;
+width: 450px;
+font-size: 50px;
+}
